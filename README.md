@@ -52,11 +52,11 @@ Goloris - slowloris[1] for nginx DoS
 
 * **How to use it?**
 
-  ```
+```
 go get -u -a github.com/valyala/goloris
 go build github.com/valyala/goloris
 ./goloris -help
-  ```
+```
 
 P.S. Don't forget adjusting `ulimit -n` before experimenting.
 
